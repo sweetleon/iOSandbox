@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B84CCAD0177E59E800F8BF7F"
-               BuildableName = "sandboxTests.octest"
-               BlueprintName = "sandboxTests"
+               BlueprintIdentifier = "B84CCB0F177E5B8100F8BF7F"
+               BuildableName = "SandboxTests.octest"
+               BlueprintName = "SandboxTests"
                ReferencedContainer = "container:sandbox.xcodeproj">
             </BuildableReference>
          </TestableReference>

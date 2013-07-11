@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SandboxTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>sandbox.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>B84CCAD0177E59E800F8BF7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B84CCB0F177E5B8100F8BF7F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

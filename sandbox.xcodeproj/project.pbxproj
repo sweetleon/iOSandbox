@@ -16,15 +16,109 @@
 		B84CCAC7177E59E800F8BF7F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B84CCAC6177E59E800F8BF7F /* Default.png */; };
 		B84CCAC9177E59E800F8BF7F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B84CCAC8177E59E800F8BF7F /* Default@2x.png */; };
 		B84CCACB177E59E800F8BF7F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B84CCACA177E59E800F8BF7F /* Default-568h@2x.png */; };
-		B84CCAD3177E59E800F8BF7F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84CCAD2177E59E800F8BF7F /* SenTestingKit.framework */; };
-		B84CCAD4177E59E800F8BF7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84CCAB4177E59E800F8BF7F /* UIKit.framework */; };
-		B84CCAD5177E59E800F8BF7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84CCAB6177E59E800F8BF7F /* Foundation.framework */; };
-		B84CCADD177E59E800F8BF7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B84CCADB177E59E800F8BF7F /* InfoPlist.strings */; };
-		B84CCAE0177E59E800F8BF7F /* sandboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B84CCADF177E59E800F8BF7F /* sandboxTests.m */; };
+		B84CCB11177E5B8100F8BF7F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84CCAD2177E59E800F8BF7F /* SenTestingKit.framework */; };
+		B84CCB12177E5B8100F8BF7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84CCAB4177E59E800F8BF7F /* UIKit.framework */; };
+		B84CCB13177E5B8100F8BF7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84CCAB6177E59E800F8BF7F /* Foundation.framework */; };
+		B84CCB19177E5B8100F8BF7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B84CCB17177E5B8100F8BF7F /* InfoPlist.strings */; };
+		B84CCB1B177E5B8100F8BF7F /* ExampleSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = B84CCB1A177E5B8100F8BF7F /* ExampleSpec.mm */; };
+		B84CCB1D177E5B8200F8BF7F /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84CCB1C177E5B8200F8BF7F /* Cedar-iOS.framework */; };
+		B84CCB25177E5BDC00F8BF7F /* HmmmmmSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = B84CCB24177E5BDC00F8BF7F /* HmmmmmSpec.mm */; };
+		B861EE07178F172100144EB0 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B861EDF8178F135A00144EB0 /* libOCMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B84CCAD6177E59E800F8BF7F /* PBXContainerItemProxy */ = {
+		B84CCAF5177E5A9E00F8BF7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84CCAE9177E5A9E00F8BF7F /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE1FB611DC271300029872;
+			remoteInfo = Cedar;
+		};
+		B84CCAF7177E5A9E00F8BF7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84CCAE9177E5A9E00F8BF7F /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE218611DC28E200029872;
+			remoteInfo = Specs;
+		};
+		B84CCAF9177E5A9E00F8BF7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84CCAE9177E5A9E00F8BF7F /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96A07F0813F276640021974D;
+			remoteInfo = FocusedSpecs;
+		};
+		B84CCAFB177E5A9E00F8BF7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84CCAE9177E5A9E00F8BF7F /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE222911DC2B0600029872;
+			remoteInfo = "Cedar-StaticLib";
+		};
+		B84CCAFD177E5A9E00F8BF7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84CCAE9177E5A9E00F8BF7F /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE227611DC2CF900029872;
+			remoteInfo = iOSSpecs;
+		};
+		B84CCAFF177E5A9E00F8BF7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84CCAE9177E5A9E00F8BF7F /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96B5F9F6144A81A7000A6A5D;
+			remoteInfo = OCUnitApp;
+		};
+		B84CCB01177E5A9E00F8BF7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84CCAE9177E5A9E00F8BF7F /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96B5FA11144A81A8000A6A5D;
+			remoteInfo = OCUnitAppTests;
+		};
+		B84CCB03177E5A9E00F8BF7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84CCAE9177E5A9E00F8BF7F /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96158A86144A915E005895CE;
+			remoteInfo = OCUnitAppLogicTests;
+		};
+		B84CCB22177E5B9A00F8BF7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84CCAE9177E5A9E00F8BF7F /* Cedar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEE222811DC2B0600029872;
+			remoteInfo = "Cedar-StaticLib";
+		};
+		B861EDF3178F135A00144EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B861EDE5178F135A00144EB0 /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 030EF0A814632FD000B04273;
+			remoteInfo = OCMock;
+		};
+		B861EDF5178F135A00144EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B861EDE5178F135A00144EB0 /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 030EF0C014632FD000B04273;
+			remoteInfo = OCMockTests;
+		};
+		B861EDF7178F135A00144EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B861EDE5178F135A00144EB0 /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 030EF0DC14632FF700B04273;
+			remoteInfo = OCMockLib;
+		};
+		B861EDF9178F136900144EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B861EDE5178F135A00144EB0 /* OCMock.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 030EF0DB14632FF700B04273;
+			remoteInfo = OCMockLib;
+		};
+		B861EE05178F170700144EB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B84CCAA9177E59E800F8BF7F /* Project object */;
 			proxyType = 1;
@@ -47,12 +141,16 @@
 		B84CCAC6177E59E800F8BF7F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B84CCAC8177E59E800F8BF7F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B84CCACA177E59E800F8BF7F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		B84CCAD1177E59E800F8BF7F /* sandboxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sandboxTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84CCAD2177E59E800F8BF7F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		B84CCADA177E59E800F8BF7F /* sandboxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sandboxTests-Info.plist"; sourceTree = "<group>"; };
-		B84CCADC177E59E800F8BF7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B84CCADE177E59E800F8BF7F /* sandboxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sandboxTests.h; sourceTree = "<group>"; };
-		B84CCADF177E59E800F8BF7F /* sandboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sandboxTests.m; sourceTree = "<group>"; };
+		B84CCAE9177E5A9E00F8BF7F /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
+		B84CCB10177E5B8100F8BF7F /* SandboxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandboxTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84CCB16177E5B8100F8BF7F /* SandboxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SandboxTests-Info.plist"; sourceTree = "<group>"; };
+		B84CCB18177E5B8100F8BF7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B84CCB1A177E5B8100F8BF7F /* ExampleSpec.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleSpec.mm; sourceTree = "<group>"; };
+		B84CCB1C177E5B8200F8BF7F /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
+		B84CCB1E177E5B8200F8BF7F /* SandboxTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SandboxTests-Prefix.pch"; sourceTree = "<group>"; };
+		B84CCB24177E5BDC00F8BF7F /* HmmmmmSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = HmmmmmSpec.mm; path = sandboxTests/HmmmmmSpec.mm; sourceTree = SOURCE_ROOT; };
+		B861EDE5178F135A00144EB0 /* OCMock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCMock.xcodeproj; path = ocmock/Source/OCMock.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +164,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B84CCACD177E59E800F8BF7F /* Frameworks */ = {
+		B84CCB0C177E5B8100F8BF7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B84CCAD3177E59E800F8BF7F /* SenTestingKit.framework in Frameworks */,
-				B84CCAD4177E59E800F8BF7F /* UIKit.framework in Frameworks */,
-				B84CCAD5177E59E800F8BF7F /* Foundation.framework in Frameworks */,
+				B861EE07178F172100144EB0 /* libOCMock.a in Frameworks */,
+				B84CCB11177E5B8100F8BF7F /* SenTestingKit.framework in Frameworks */,
+				B84CCB12177E5B8100F8BF7F /* UIKit.framework in Frameworks */,
+				B84CCB13177E5B8100F8BF7F /* Foundation.framework in Frameworks */,
+				B84CCB1D177E5B8200F8BF7F /* Cedar-iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,8 +182,10 @@
 		B84CCAA8177E59E800F8BF7F = {
 			isa = PBXGroup;
 			children = (
+				B861EDE5178F135A00144EB0 /* OCMock.xcodeproj */,
+				B84CCAE9177E5A9E00F8BF7F /* Cedar.xcodeproj */,
 				B84CCABA177E59E800F8BF7F /* sandbox */,
-				B84CCAD8177E59E800F8BF7F /* sandboxTests */,
+				B84CCB14177E5B8100F8BF7F /* SandboxTests */,
 				B84CCAB3177E59E800F8BF7F /* Frameworks */,
 				B84CCAB2177E59E800F8BF7F /* Products */,
 			);
@@ -93,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				B84CCAB1177E59E800F8BF7F /* sandbox.app */,
-				B84CCAD1177E59E800F8BF7F /* sandboxTests.octest */,
+				B84CCB10177E5B8100F8BF7F /* SandboxTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,23 +235,50 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B84CCAD8177E59E800F8BF7F /* sandboxTests */ = {
+		B84CCAEA177E5A9E00F8BF7F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B84CCADE177E59E800F8BF7F /* sandboxTests.h */,
-				B84CCADF177E59E800F8BF7F /* sandboxTests.m */,
-				B84CCAD9177E59E800F8BF7F /* Supporting Files */,
+				B84CCAF6177E5A9E00F8BF7F /* Cedar.framework */,
+				B84CCAF8177E5A9E00F8BF7F /* Specs */,
+				B84CCAFA177E5A9E00F8BF7F /* FocusedSpecs */,
+				B84CCAFC177E5A9E00F8BF7F /* libCedar-StaticLib.a */,
+				B84CCAFE177E5A9E00F8BF7F /* iOSSpecs.app */,
+				B84CCB00177E5A9E00F8BF7F /* OCUnitApp.app */,
+				B84CCB02177E5A9E00F8BF7F /* OCUnitAppTests.octest */,
+				B84CCB04177E5A9E00F8BF7F /* OCUnitAppLogicTests.octest */,
 			);
-			path = sandboxTests;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		B84CCAD9177E59E800F8BF7F /* Supporting Files */ = {
+		B84CCB14177E5B8100F8BF7F /* SandboxTests */ = {
 			isa = PBXGroup;
 			children = (
-				B84CCADA177E59E800F8BF7F /* sandboxTests-Info.plist */,
-				B84CCADB177E59E800F8BF7F /* InfoPlist.strings */,
+				B84CCB1A177E5B8100F8BF7F /* ExampleSpec.mm */,
+				B84CCB1C177E5B8200F8BF7F /* Cedar-iOS.framework */,
+				B84CCB15177E5B8100F8BF7F /* Supporting Files */,
+				B84CCB24177E5BDC00F8BF7F /* HmmmmmSpec.mm */,
+			);
+			path = SandboxTests;
+			sourceTree = "<group>";
+		};
+		B84CCB15177E5B8100F8BF7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B84CCB16177E5B8100F8BF7F /* SandboxTests-Info.plist */,
+				B84CCB17177E5B8100F8BF7F /* InfoPlist.strings */,
+				B84CCB1E177E5B8200F8BF7F /* SandboxTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B861EDE6178F135A00144EB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B861EDF4178F135A00144EB0 /* OCMock.framework */,
+				B861EDF6178F135A00144EB0 /* OCMockTests.octest */,
+				B861EDF8178F135A00144EB0 /* libOCMock.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,23 +301,25 @@
 			productReference = B84CCAB1177E59E800F8BF7F /* sandbox.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B84CCAD0177E59E800F8BF7F /* sandboxTests */ = {
+		B84CCB0F177E5B8100F8BF7F /* SandboxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B84CCAE6177E59E800F8BF7F /* Build configuration list for PBXNativeTarget "sandboxTests" */;
+			buildConfigurationList = B84CCB1F177E5B8200F8BF7F /* Build configuration list for PBXNativeTarget "SandboxTests" */;
 			buildPhases = (
-				B84CCACC177E59E800F8BF7F /* Sources */,
-				B84CCACD177E59E800F8BF7F /* Frameworks */,
-				B84CCACE177E59E800F8BF7F /* Resources */,
-				B84CCACF177E59E800F8BF7F /* ShellScript */,
+				B84CCB0B177E5B8100F8BF7F /* Sources */,
+				B84CCB0C177E5B8100F8BF7F /* Frameworks */,
+				B84CCB0D177E5B8100F8BF7F /* Resources */,
+				B84CCB0E177E5B8100F8BF7F /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B84CCAD7177E59E800F8BF7F /* PBXTargetDependency */,
+				B861EE06178F170700144EB0 /* PBXTargetDependency */,
+				B861EDFA178F136900144EB0 /* PBXTargetDependency */,
+				B84CCB23177E5B9A00F8BF7F /* PBXTargetDependency */,
 			);
-			name = sandboxTests;
-			productName = sandboxTests;
-			productReference = B84CCAD1177E59E800F8BF7F /* sandboxTests.octest */;
+			name = SandboxTests;
+			productName = SandboxTests;
+			productReference = B84CCB10177E5B8100F8BF7F /* SandboxTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -211,13 +342,103 @@
 			mainGroup = B84CCAA8177E59E800F8BF7F;
 			productRefGroup = B84CCAB2177E59E800F8BF7F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B84CCAEA177E5A9E00F8BF7F /* Products */;
+					ProjectRef = B84CCAE9177E5A9E00F8BF7F /* Cedar.xcodeproj */;
+				},
+				{
+					ProductGroup = B861EDE6178F135A00144EB0 /* Products */;
+					ProjectRef = B861EDE5178F135A00144EB0 /* OCMock.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B84CCAB0177E59E800F8BF7F /* sandbox */,
-				B84CCAD0177E59E800F8BF7F /* sandboxTests */,
+				B84CCB0F177E5B8100F8BF7F /* SandboxTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B84CCAF6177E5A9E00F8BF7F /* Cedar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cedar.framework;
+			remoteRef = B84CCAF5177E5A9E00F8BF7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B84CCAF8177E5A9E00F8BF7F /* Specs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Specs;
+			remoteRef = B84CCAF7177E5A9E00F8BF7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B84CCAFA177E5A9E00F8BF7F /* FocusedSpecs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = FocusedSpecs;
+			remoteRef = B84CCAF9177E5A9E00F8BF7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B84CCAFC177E5A9E00F8BF7F /* libCedar-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCedar-StaticLib.a";
+			remoteRef = B84CCAFB177E5A9E00F8BF7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B84CCAFE177E5A9E00F8BF7F /* iOSSpecs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSSpecs.app;
+			remoteRef = B84CCAFD177E5A9E00F8BF7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B84CCB00177E5A9E00F8BF7F /* OCUnitApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OCUnitApp.app;
+			remoteRef = B84CCAFF177E5A9E00F8BF7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B84CCB02177E5A9E00F8BF7F /* OCUnitAppTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCUnitAppTests.octest;
+			remoteRef = B84CCB01177E5A9E00F8BF7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B84CCB04177E5A9E00F8BF7F /* OCUnitAppLogicTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCUnitAppLogicTests.octest;
+			remoteRef = B84CCB03177E5A9E00F8BF7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B861EDF4178F135A00144EB0 /* OCMock.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OCMock.framework;
+			remoteRef = B861EDF3178F135A00144EB0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B861EDF6178F135A00144EB0 /* OCMockTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCMockTests.octest;
+			remoteRef = B861EDF5178F135A00144EB0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B861EDF8178F135A00144EB0 /* libOCMock.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOCMock.a;
+			remoteRef = B861EDF7178F135A00144EB0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B84CCAAF177E59E800F8BF7F /* Resources */ = {
@@ -231,18 +452,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B84CCACE177E59E800F8BF7F /* Resources */ = {
+		B84CCB0D177E5B8100F8BF7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B84CCADD177E59E800F8BF7F /* InfoPlist.strings in Resources */,
+				B84CCB19177E5B8100F8BF7F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B84CCACF177E59E800F8BF7F /* ShellScript */ = {
+		B84CCB0E177E5B8100F8BF7F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,21 +488,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B84CCACC177E59E800F8BF7F /* Sources */ = {
+		B84CCB0B177E5B8100F8BF7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B84CCAE0177E59E800F8BF7F /* sandboxTests.m in Sources */,
+				B84CCB1B177E5B8100F8BF7F /* ExampleSpec.mm in Sources */,
+				B84CCB25177E5BDC00F8BF7F /* HmmmmmSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B84CCAD7177E59E800F8BF7F /* PBXTargetDependency */ = {
+		B84CCB23177E5B9A00F8BF7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cedar-StaticLib";
+			targetProxy = B84CCB22177E5B9A00F8BF7F /* PBXContainerItemProxy */;
+		};
+		B861EDFA178F136900144EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCMockLib;
+			targetProxy = B861EDF9178F136900144EB0 /* PBXContainerItemProxy */;
+		};
+		B861EE06178F170700144EB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B84CCAB0177E59E800F8BF7F /* sandbox */;
-			targetProxy = B84CCAD6177E59E800F8BF7F /* PBXContainerItemProxy */;
+			targetProxy = B861EE05178F170700144EB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -294,10 +526,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		B84CCADB177E59E800F8BF7F /* InfoPlist.strings */ = {
+		B84CCB17177E5B8100F8BF7F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B84CCADC177E59E800F8BF7F /* en */,
+				B84CCB18177E5B8100F8BF7F /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -385,36 +617,52 @@
 			};
 			name = Release;
 		};
-		B84CCAE7177E59E800F8BF7F /* Debug */ = {
+		B84CCB20177E5B8200F8BF7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sandbox.app/sandbox";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)/SandboxTests/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "sandbox/sandbox-Prefix.pch";
-				INFOPLIST_FILE = "sandboxTests/sandboxTests-Info.plist";
+				GCC_PREFIX_HEADER = "SandboxTests/SandboxTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = "OCMock/Source/**";
+				INFOPLIST_FILE = "SandboxTests/SandboxTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
-		B84CCAE8177E59E800F8BF7F /* Release */ = {
+		B84CCB21177E5B8200F8BF7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sandbox.app/sandbox";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)/SandboxTests/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "sandbox/sandbox-Prefix.pch";
-				INFOPLIST_FILE = "sandboxTests/sandboxTests-Info.plist";
+				GCC_PREFIX_HEADER = "SandboxTests/SandboxTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = "OCMock/Source/**";
+				INFOPLIST_FILE = "SandboxTests/SandboxTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -438,14 +686,16 @@
 				B84CCAE5177E59E800F8BF7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B84CCAE6177E59E800F8BF7F /* Build configuration list for PBXNativeTarget "sandboxTests" */ = {
+		B84CCB1F177E5B8200F8BF7F /* Build configuration list for PBXNativeTarget "SandboxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B84CCAE7177E59E800F8BF7F /* Debug */,
-				B84CCAE8177E59E800F8BF7F /* Release */,
+				B84CCB20177E5B8200F8BF7F /* Debug */,
+				B84CCB21177E5B8200F8BF7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
