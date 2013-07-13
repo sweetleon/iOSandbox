@@ -88,7 +88,7 @@ describe(@"async blocks", ^{
     });
 });
 
-xdescribe(@"example for Cedar team", ^{
+describe(@"spying on a systemwide singleton [NSUserDefaults standardUserDefaults]", ^{
     beforeEach(^{
         spy_on([NSUserDefaults standardUserDefaults]);
     });
