@@ -5,7 +5,7 @@ using namespace Cedar::Doubles;
 
 typedef void (^RunBlock)();
 @protocol TakesBlocks
--(void)runBlock:RunBlock;
+-(void)runBlock:(RunBlock)rBlock;
 @end
 
 SPEC_BEGIN(CedarSpec)
