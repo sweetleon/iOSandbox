@@ -21,9 +21,9 @@
 		B84CCB13177E5B8100F8BF7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84CCAB6177E59E800F8BF7F /* Foundation.framework */; };
 		B84CCB19177E5B8100F8BF7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B84CCB17177E5B8100F8BF7F /* InfoPlist.strings */; };
 		B84CCB1B177E5B8100F8BF7F /* ExampleSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = B84CCB1A177E5B8100F8BF7F /* ExampleSpec.mm */; };
-		B84CCB1D177E5B8200F8BF7F /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84CCB1C177E5B8200F8BF7F /* Cedar-iOS.framework */; };
 		B84CCB25177E5BDC00F8BF7F /* HmmmmmSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = B84CCB24177E5BDC00F8BF7F /* HmmmmmSpec.mm */; };
 		B861EE07178F172100144EB0 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B861EDF8178F135A00144EB0 /* libOCMock.a */; };
+		B8F610A517A0708F00D1DC42 /* libCedar-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B84CCAFC177E5A9E00F8BF7F /* libCedar-StaticLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,11 +168,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F610A517A0708F00D1DC42 /* libCedar-StaticLib.a in Frameworks */,
 				B861EE07178F172100144EB0 /* libOCMock.a in Frameworks */,
 				B84CCB11177E5B8100F8BF7F /* SenTestingKit.framework in Frameworks */,
 				B84CCB12177E5B8100F8BF7F /* UIKit.framework in Frameworks */,
 				B84CCB13177E5B8100F8BF7F /* Foundation.framework in Frameworks */,
-				B84CCB1D177E5B8200F8BF7F /* Cedar-iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
