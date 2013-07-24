@@ -26,7 +26,7 @@ describe(@"async blocks", ^{
             }];
         });
         
-//        dispatch_group_notify(group, queue, ^{
+        dispatch_group_notify(group, queue, ^{
             dispatch_queue_t mainQueue = dispatch_get_main_queue();
             [spyForProtocol runBlock:^{
                 dispatch_async(priorityQueue, ^{
@@ -36,7 +36,7 @@ describe(@"async blocks", ^{
                     });
                 });
             }];
-//        });
+        });
     };
     
     beforeEach(^{
