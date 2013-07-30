@@ -147,7 +147,6 @@
 		B84CCB16177E5B8100F8BF7F /* SandboxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SandboxTests-Info.plist"; sourceTree = "<group>"; };
 		B84CCB18177E5B8100F8BF7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B84CCB1A177E5B8100F8BF7F /* ExampleSpec.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleSpec.mm; sourceTree = "<group>"; };
-		B84CCB1C177E5B8200F8BF7F /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
 		B84CCB1E177E5B8200F8BF7F /* SandboxTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SandboxTests-Prefix.pch"; sourceTree = "<group>"; };
 		B84CCB24177E5BDC00F8BF7F /* HmmmmmSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = HmmmmmSpec.mm; path = sandboxTests/HmmmmmSpec.mm; sourceTree = SOURCE_ROOT; };
 		B861EDE5178F135A00144EB0 /* OCMock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCMock.xcodeproj; path = ocmock/Source/OCMock.xcodeproj; sourceTree = "<group>"; };
@@ -254,7 +253,6 @@
 			isa = PBXGroup;
 			children = (
 				B84CCB1A177E5B8100F8BF7F /* ExampleSpec.mm */,
-				B84CCB1C177E5B8200F8BF7F /* Cedar-iOS.framework */,
 				B84CCB15177E5B8100F8BF7F /* Supporting Files */,
 				B84CCB24177E5BDC00F8BF7F /* HmmmmmSpec.mm */,
 			);
@@ -637,7 +635,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "Cedar/**";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -662,7 +660,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "Cedar/**";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
